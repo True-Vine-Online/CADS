@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="background-color:transparent;">
+  <head>
+    
+    <!--CADS v.beta.1.0-->
+    <title>CADS v.beta.1.0</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://truevine.online/cads/panels/js/reporttag.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+      <!-- Cronitor RUM -->
+      <script async src="https://rum.cronitor.io/script.js"></script>
+      <script>
+          window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+          cronitor('config', { clientKey: '1062f9bab910f74fd52887647d20a5f9' });
+      </script>
+      <!--Cronitor End-->
+
+  </head>
+
+
+
+  <body style="background-color:transparent;" onload="reporttag()">
+
+    <div name="0001-0002" class="cads-panel" height="auto">
+      <div class="cads-card">
+          <div class="cads-media">
+              <a href="https://www.wavedm.net/" target="_blank" id="imglink1" class="uk-link-muted"><img width="100%" src="./img/wdm.png" alt="Wave Digital Ministries Network"></a>
+          </div>
+          <div class="cads-body">
+            <h5 class="cads-heading"><span>Wave Digital Ministries</span></h5>
+            <p class="cads-copy">We are merging ministry & technology.</p>
+            <a class="cads-a" href="https://www.wavedm.net/" target="_blank" id="adlink1" class="uk-link-muted">Learn more</a> | <a class="cads-a" id="reportlink" href="" target="_blank" class="uk-link-muted">Report ad</a>
+
+          </div>
+      </div>
+    </div>
+
+
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+  </body>
+
+  <script>
+  let adlink1 = document.getElementById("adlink1");
+  adlink1.addEventListener("click", function () { panelbear("track", "adlink-0001-0002");
+  });
+
+  let imglink1 = document.getElementById("imglink1");
+  imglink1.addEventListener("click", function () { panelbear("track", "imglink-0001-0002");
+  });
+
+  let reportlink = document.getElementById("reportlink");
+  reportlink.addEventListener("click", function () { panelbear("track", "ad-reported");
+  });
+
+  let adlink2 = document.getElementById("adlink2");
+  adlink2.addEventListener("click", function () { panelbear("track", "adlink-0000-0005");
+  });
+
+  let imglink2 = document.getElementById("imglink2");
+  imglink2.addEventListener("click", function () { panelbear("track", "imglink-0000-0005");
+  });
+
+  </script>
+  <script type="text/javascript">
+  function click(){
+    console.log("something was clicked")
+  }
+
+
+
+  </script>
+
+
+
+
+</html>
