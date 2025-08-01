@@ -6,6 +6,9 @@ When adding an entry, make sure to update the "adIds" array to include its name/
 adIds are by the following format: POST#_CLIENT#
 */
 
+function reporttag(){
+    document.getElementById("reportlink").href = "https://truevineonline.com/"
+};
 
 function loadRdAd(){
     var adIds = Array('0001_001', '0001_002', '0001_003');
