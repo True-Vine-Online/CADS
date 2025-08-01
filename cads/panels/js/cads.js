@@ -15,7 +15,7 @@ function loadRdAd(){
     /* CADS entry begin */
     if (adId=='0001_001'){
         /* IMG for the CADS entry (Use root directory paths "./" or direct "https") */
-        document.getElementById("CADimg").src = './img/wdm.png'
+        document.getElementById("CADimg").src = 'https://cads.truevine.online/cads/panels/img/wdm.png'
 
         /* CADS Content Headline */
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 1)"
@@ -31,7 +31,7 @@ function loadRdAd(){
 
     /* CADS entry begin */
     if (adId=='0001_002'){
-        document.getElementById("CADimg").src = './img/wdm.png'
+        document.getElementById("CADimg").src = 'https://cads.truevine.online/cads/panels/img/wdm.png'
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 2)"
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
@@ -41,7 +41,7 @@ function loadRdAd(){
 
     /* CADS entry begin */
     if (adId=='0001_003'){
-        document.getElementById("CADimg").src = './img/wdm.png'
+        document.getElementById("CADimg").src = 'https://cads.truevine.online/cads/panels/img/wdm.png'
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 3)"
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
