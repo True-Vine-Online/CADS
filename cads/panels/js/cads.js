@@ -10,8 +10,8 @@ adIds are by the following format: POST#_CLIENT#
 function loadRdAd(){
     var adIds = Array('0001_001', '0001_002', '0001_003');
     var adId = adIds[Math.floor(Math.random()*adIds.length)];
+    var reportLink = 'https://tally.so/r/wa6PyB'
     console.log(adId)
-
 
     /* CADS entry begin */
     if (adId=='0001_001'){
@@ -27,6 +27,8 @@ function loadRdAd(){
         /* CADS Content Link (Must be same link!) */
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
+
+        document.getElementById("reportlink").href = reportLink
     }
     /* End */
 
@@ -37,6 +39,8 @@ function loadRdAd(){
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
+
+        document.getElementById("reportlink").href = reportLink
     }
     /* End */
 
@@ -47,6 +51,8 @@ function loadRdAd(){
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
+
+        document.getElementById("reportlink").href = reportLink
     }
     /* End */
 }
