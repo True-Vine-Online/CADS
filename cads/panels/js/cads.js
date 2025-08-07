@@ -10,7 +10,7 @@ adIds are by the following format: POST#_CLIENT#
 function loadRdAd(){
     var adIds = Array('0001_001', '0001_002', '0001_003');
     var adId = adIds[Math.floor(Math.random()*adIds.length)];
-    var reportLink = 'https://tally.so/r/wa6PyB'
+    var reportLink = 'https://airtable.com/appKezXc1DqP1R6B1/pagHEBynswz83MoE4/form'
     console.log(adId)
 
     /* CADS entry begin */
